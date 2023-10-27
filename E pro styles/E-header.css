@@ -211,22 +211,25 @@ header .h-mobile{
 
 
 }
-
-.box2{
-    height: 30px;
-    width: 30px;
-    position:absolute ;
-    top: 2px;
-    padding-right: 210px;
+.search-patition{
+    width: 100%;
     display: flex;
-    
-    
-
-}
-.box1{
-    position: relative;
-    display: flex;
+    align-items: center;
     justify-content: center;
+    z-index: 1;
+}
+
+
+.box1{
+    flex: 1;
+    max-width: 800px;
+    min-width: 10px;
+    margin: 0px 10px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+
+
     
 }
 .search-bar{
@@ -237,18 +240,24 @@ header .h-mobile{
     border-width: 2px;
     border-color: gray;
     box-shadow: 3px 2px 5px hsl(0, 0%, 68%);
+    flex: 1;
     
 }
-
-.search-icon{
-    height: 25px;
-}
-
 .search-bar::placeholder{
     font-family: arial;
     font-weight: bold;
     font-size: 17px;
 }
+
+.search-icon{
+    top: 4px;
+    width: 20px;
+    position: absolute;
+    left: 8px;
+
+}
+
+
 
 
 
