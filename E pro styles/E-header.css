@@ -138,26 +138,37 @@ header .h-mobile{
 
 .project .m-ul{
     position: absolute;
-    background-color: grey;
-    margin-top: 10px;
-    width: 150px;
-    height: 150px;
+    background-color: rgb(7, 7, 7);
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     list-style: none;
     border-radius: 5px;
-    opacity: 0;
-    pointer-events: none;
     transition: all 0.4s ease;
     transform: translateY(10px);
-    z-index: 3;
+    z-index: 2;
+    bottom: -310px;
+    left: 0;
+    right: -200px;
+    height: 300px;
+    
+
+}
+.image-icon1{
+    width: 20px;
+    position: absolute;
+    left: 47px;
 
 }
 
+
 .project .m-a{
     text-decoration: none;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     
 }
 .project button{
@@ -166,7 +177,7 @@ header .h-mobile{
     color:black;
     font-size: 15px;
     cursor: pointer;
-    border-radius: 45%;
+    border-radius: 40px
 }
 
 .project button:hover{
@@ -186,9 +197,10 @@ header .h-mobile{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .project .m-li:hover{
-    background-color: white;
+    background-color: rgb(116, 115, 115);
 }
 
 .project button:focus + .m-ul{
@@ -197,6 +209,47 @@ header .h-mobile{
   transform: translate(0); 
 
 }
+
+#hide{
+    display: none;
+}
+
+.e-profile{
+    width: 50px;
+    border-radius: 25px;
+  }
+  .e-p-title{
+    display: grid;
+    width: 220px;
+    grid-template-columns: 50px 1fr;
+    background-color: rgb(190, 190, 190);
+    padding: 3px;
+    border-radius: 9px;
+    margin-top: 2px;
+  }
+  .p1{
+        font-family: arial;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    text-shadow:2px 3px 5px hsl(330, 1%, 51%), -2px -3px 5px hsl(330, 3%, 71%);
+    color: rgb(68, 32, 199);
+    margin-top: 0;
+  
+  }
+hr{
+    margin: 1px;
+    background-color: white;
+}
+
+#e-home-icon{
+    color: white;
+    position: absolute;
+    left: 40px;
+}
+
+
+
 /* this styles is for header section b div1 and div2*/
 
 .web-title{
@@ -224,7 +277,7 @@ header .h-mobile{
     flex: 1;
     max-width: 800px;
     min-width: 10px;
-    margin: 0px 10px;
+    margin: 0px 30px;
     display: flex;
     position: relative;
     border-radius: 10px;
