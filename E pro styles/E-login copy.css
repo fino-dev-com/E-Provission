@@ -229,3 +229,131 @@ h1{
   }
   
 }
+@media only screen and  (min-width: 661px) {
+  .body-contain-holder{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  } 
+  h1{
+    font-size: 100px;
+  }
+  .contain-holder{
+    margin-top: 40px; 
+  }
+  .sectionA p{
+    font-size: 80px;
+  }
+  .sectionB{
+    font-size: 25px;
+  }
+  
+  .sectionC input{
+    height: 30px;
+    margin-top: 5px;
+    font-size: 17px;
+    padding-left: 5px;
+  }
+  
+}
+@media only screen and  (min-width: 900px) {
+  h1{
+    font-size: 110px;
+  }
+  .sectionA p{
+    font-size: 70px;
+  }
+  .sectionC input{
+    height: 38px;
+    font-size: 19px;
+  }
+  .sectionB{
+    font-size: 30px;
+  }
+  
+}
+@media only screen and  (min-width: 1200px) {
+  h1{
+    font-size: 200px;
+  }
+  .sectionA p{
+    font-size: 100px;
+  }
+  .sectionC input{
+    height: 38px;
+    font-size: 19px;
+  }
+  .sectionB{
+    font-size: 40px;
+  }
+  
+}
+@media only screen and  (min-width: 1657px) {
+  .contain-holder{
+    max-width: 780px;
+  }
+  
+}
+@media only screen and  (min-width: 320px) {
+  .body-contain-holder{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .contain-holder{
+    padding: 100px 5px 40px 5px;
+  }
+  h1{
+    font-size: 70px;
+  }
+  .sectionA p{
+    font-size: 50px;
+  }
+  .sectionB{
+    font-size: 25px;
+  }
+  .sectionC{
+    margin-top: 30px;
+  }
+  .sectionA-part1 button{
+    width: 50px;
+    height: 45px;
+    margin-bottom: 15px;
+  }
+  
+}
+@media only screen and  (min-width: 465px) {
+  .sectionC input{
+    height: 30px;
+    font-size: 17px;
+  }
+  .sectionC{
+    margin-top: 50px;
+    font-size: 30px;
+    height: 210px;
+  }
+
+
+}
+@media only screen and  (min-width: 1200px) {
+  h1{
+    font-size: 100px;
+  }
+  .sectionA p{
+    font-size: 70px;
+  }
+  .sectionC input{
+    height: 38px;
+    font-size: 19px;
+  }
+  .sectionB{
+    font-size: 30px;
+  }
+  .sectionA-part1 button{
+    width: 75px;
+  }
+  
+  
+}
