@@ -13,11 +13,12 @@ body{
 }
 .sectionA-part1 button{
   width: 30px;
-  height: 30px;
+  height: 25px ;
+
 }
 .sectionA-part1 button img{
-  width: 100%;
-  height: 100%;
+  width: 30px;
+  height: 25px;
 }
 h1{
   text-align: center;
@@ -137,6 +138,9 @@ h1{
   .sectionA-part1 button{
     width: 40px;
   }
+  .sectionA-part1 button img{
+    width: 40px;
+  }
   .sectionA p{
     font-size: 35px;
   }
@@ -214,6 +218,9 @@ h1{
   .sectionA-part1 button{
     width: 70px;
     margin-left: 0;
+  }
+  .sectionA-part1 button img{
+    width: 70px;
   }
   .sectionA p{
     font-size: 70px;
