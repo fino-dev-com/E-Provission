@@ -14,11 +14,15 @@ body{
 .sectionA-part1 button{
   width: 30px;
   height: 25px ;
+  padding: 0;
+  margin: 0;
 
 }
 .sectionA-part1 button img{
   width: 30px;
   height: 25px;
+  padding: 0;
+  margin: 0;
 }
 h1{
   text-align: center;
@@ -137,9 +141,13 @@ h1{
   }
   .sectionA-part1 button{
     width: 40px;
+    padding: 0;
+    margin: 0;
   }
   .sectionA-part1 button img{
     width: 40px;
+    margin: 0;
+    padding: 0;
   }
   .sectionA p{
     font-size: 35px;
@@ -217,10 +225,13 @@ h1{
   }
   .sectionA-part1 button{
     width: 70px;
-    margin-left: 0;
+    margin: 0;
+    padding: 0;
   }
   .sectionA-part1 button img{
     width: 70px;
+    padding: 0;
+    margin: 0;
   }
   .sectionA p{
     font-size: 70px;
